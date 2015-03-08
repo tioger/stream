@@ -17,24 +17,7 @@
 	<link href="css/bootstrap-responsive.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-	<link rel="stylesheet" href="css/normalize.min.css">
-    <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-    <style>
-    body {
-        padding-top: 70px;
-		background-image:url(img/tioger/back.png);
-		background-position:center center;
-		
-        /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    }
-    </style>
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
+	
 	 <script src="js/jquery.js"></script>
 	 <script src="js/switchstream.js"></script>
 	<script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
@@ -42,52 +25,9 @@
 
 <body>
 	
-    <!-- Navigation -->
-    <nav  class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="http://tioger.com/test/v2/"><img src="img/logofsc.png"  /></a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="http://tioger.com/test/v2/">Nos Streamers</a>
-                    </li>
-                    <li>
-                        <a href="#slide2">Qui Sommes Nous ? </a>
-                    </li>
-                    <li>
-                        <a href="http://tioger.com/test/v2/contact.html">Nous Contacter</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+    
     <!-- Page Content -->
 	<div class="container">
-		<div class="row">
-			<div class="span4">
-				<img src="img/tioger/gauche.png" width="80%"/>
-			</div>
-			<div class="span4">
-				<center>
-					<img src="img/tioger/logocentre.png" width="50%" style="margin-right:20px;"/>
-				</center>
-			</div>
-			<div class="span4">
-				<img src="img/tioger/droite.png" width="80%" style="float:right;margin-right:20px;"/>
-			</div>
-		</div>
 		<div class="row">
 			<div class="span8">
 				<center>
@@ -95,7 +35,6 @@
 				<img id="dailysw" style="cursor:pointer" src="img/tioger/droitesw.png" width="15%" />
 				</center>
 			</div>
-
 		</div>
 		<div class="row" id="marginrowtioger">
 			<div class="span8" class="twitchdayli" >
@@ -105,34 +44,7 @@
 				<iframe scrolling="no" style="min-width: 362px;" src="http://twitch.tv/chat/embed?channel=tioger&amp;popout_chat=true" frameborder="0" height="462px" width="100%"></iframe>
 			</div>
 		</div>
-		<div class="row">
-					<!-- Button trigger modal -->
-						<button id="buttonshare" class="btn btn-primary btn-lg"  title="Share this content" data-toggle="modal" data-target="#myModal">
-							<i class="fa fa-share-alt"></i> Partager
-						</button>
-						<div id="likefacebook">
-							<iframe src="//www.facebook.com/plugins/like.php?href=http%3A%2F%2Ftioger.com%2Ftest%2F&width&layout=button_count&action=like&show_faces=true&share=false&height=21" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:21px;" allowTransparency="true"></iframe>
-						</div>
-
-					<!-- Modal -->
-						<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-							<div class="modal-dialogtio">
-								<div class="modal-content">
-									<div class="modal-header">
-										<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
-										<h4 class="modal-title" id="myModalLabel"><i class="fa fa-share-alt"></i> Partager</h4>
-									</div>
-									<div class="modal-body">
-										<p><a title="Facebook" href="https://www.facebook.com/sharer/sharer.php?u=http://tioger.com/test/v2/streams/tioger" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-facebook fa-stack-1x"></i></span></a> <a title="Twitter" href="https://twitter.com/home?status=Venez%20nous%20rejoindre%20sur%20la%20Fun%20Stream%20Company%20http://tioger.com/test/v2/streams/tioger" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-twitter fa-stack-1x"></i></span></a> <a title="Google+" href="https://plus.google.com/share?url=http://tioger.com/test/v2/streams/tioger" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-google-plus fa-stack-1x"></i></span></a> <a title="Linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url=http://tioger.com/test/v2/streams/tioger&title=Fun%20Streamer%20Company&summary=&source=" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-linkedin fa-stack-1x"></i></span></a> <a title="Reddit" href="//www.reddit.com/submit" onclick="window.location = '//www.reddit.com/submit?url=' + encodeURIComponent(window.location); return false" target="_blank"><span class="fa-stack fa-lg"><i class="fa fa-square-o fa-stack-2x"></i><i class="fa fa-reddit fa-stack-1x"></i></span></a></p>
-									</div>
-									<div class="modal-footer">
-										<button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
-									</div>
-								</div>
-							</div>
-						</div>
-					<link rel="image_src" href="img/tioger/logocentre.png" />
-		</div>
+		
 	</div>
 	
     <!-- /.container -->
