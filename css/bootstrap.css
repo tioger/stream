@@ -6628,5 +6628,35 @@ div[id*="marginfiche"] {
 #marginrowpara{
 	margin-top:10px;
 	}
- 
+ #videoblack{
+  height:462px;
+  width:100%;
+  display:block;
+ }
+ #videored{
+  height:462px;
+  width:100%;
+  display:none;
+ }
+ #boutonswitchl{
+  border-radius: 50px 0 0 0 ;
+  background-color: black;
+  height:31px;
+  width:116px;
+  color:white;
+  float:right;
+  text-align: center;
+  cursor: pointer;
+ }
+ #boutonswitchr{
+  border-radius:  0 50px  0 0 ;
+  background-color: black;
+  height:31px;
+  width:116px;
+  color:white;
+  float:left;
+  text-align: center;
+  cursor: pointer;
+ }
+
 /*# sourceMappingURL=bootstrap.css.map */
